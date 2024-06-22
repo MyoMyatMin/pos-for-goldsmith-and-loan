@@ -29,6 +29,18 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::get('/logs', function () {
+    return file_get_contents(storage_path('logs/laravel.log'));
+});
+Route::get('/db-test', function () {
+    try {
+        \DB::connection()->getPdo();
+        return 'Database connection is working';
+    } catch (\Exception $e) {
+        return 'Error connecting to database: ' . $e->getMessage();
+    }
+});
+
 
 Route::get('/mortgages', [MortgagesController::class,'index'])->middleware('auth');
 

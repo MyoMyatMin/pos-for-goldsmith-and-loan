@@ -16,7 +16,7 @@
       "APP_NAME": "Vercel Laravel",
       "APP_ENV": "production",
       "APP_KEY":"base64:shQELXks8kcaVwW3sGNztAJkBurCYDO6KKfakaUcX7E=",
-      "APP_DEBUG": "false",
+      "APP_DEBUG": "true",
       "APP_URL": "https://pos-for-goldsmith-and-loan.vercel.app/",
       "VERCEL_DEMO_MODE": "true",
       "APP_CONFIG_CACHE": "/tmp/config.php",
