@@ -17,7 +17,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <!-- DataTables -->
-  <link rel="stylesheet" href="{{ secure_asset('plugins/datatables-bs4/css/dataTables.bootstrap4.css') }}">
+  <link rel="stylesheet" href="/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
 
 </head>
 <body class="hold-transition sidebar-mini">
@@ -274,8 +274,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
-<script src="{{ secure_asset('plugins/datatables/jquery.dataTables.js') }}"></script>
-<script src="{{ secure_asset('plugins/datatables-bs4/js/dataTables.bootstrap4.js') }}"></script>
+<script src="/plugins/datatables/jquery.dataTables.js"></script>
+<script src="/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/adminlte.min.js"></script>
 </body>
 </html>

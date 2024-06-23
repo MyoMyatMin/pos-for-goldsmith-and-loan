@@ -8,17 +8,21 @@
 
   "routes": [
     {
-      "src": "/plugins/(.*)",
-      "dest": "/public/plugins/$1"
-    },
+      "src": "/dist/img/(.*)",
+      "dest": "public/dist/img/$1"
+  },
     {
-      "src": "/dist/(.*)",
-      "dest": "/public/dist/$1"
-    },
-    {
-      "src": "/(css|js)/(.*)",
-      "dest": "/public/dist/$1/$2"
-    },
+      "src": "/plugins/datatables-bs4/css/dataTables.bootstrap4.css",
+      "dest": "public/plugins/datatables-bs4/css/dataTables.bootstrap4.css"
+  },
+  {
+    "src": "/plugins/datatables/jquery.dataTables.js",
+    "dest": "public/plugins/datatables/jquery.dataTables.js"
+},
+{
+    "src": "/plugins/datatables-bs4/js/dataTables.bootstrap4.js",
+    "dest": "public/plugins/datatables-bs4/js/dataTables.bootstrap4.js"
+},
     {
       "src": "/(.*)",
       "dest": "/api/index.php"
